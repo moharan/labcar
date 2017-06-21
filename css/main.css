@@ -66,6 +66,21 @@ input {
 	background-position: center center;
 	color: #fff;
 }
+.conduce2 {
+	background-color: rgba(0, 0, 0, .5);
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 300px;
+	height: 400px;
+	padding: 60px 20px;
+}
+.color2 {
+	background-color: #f7b617;
+	color: white;
+	border: none;
+}
 /*descarga*/
 .descarga {
 	color: white;
