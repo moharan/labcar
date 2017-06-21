@@ -14,11 +14,11 @@
 	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-<header>
+<header id="principal" class="principal">
 	<!-- copiar pegar nav de -->
 	<nav class="navbar navbar-default">
 	<!-- container-fluid -->
-  <div class="container">
+  <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -39,10 +39,26 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-		<p>header</p>
+			<div class="conviertete">
+				<form">
+				<div class="form-group">
+				<h4>Disfruta del viaje  <br> Eres dueño de tu tiempo</h4>
+				<p>Viaja con <img src="img/logo-blanco.png" alt="logotipo blanco"></p>
+				</div>
+				<div class="form-group">
+    					<label for="option1" class="lab">REGÍSTRATE</label><br>
+    					<input type="text" class="option" id="option1">
+    					<label for="option2" class="lab">O BIEN</label>
+    					<input type="text" class="option" id="option2">
+    			</div>
+    			<div class="form-group">
+  					<button type="submit" class="btn btn-default">Conviértete en conductor</button>
+  				</div>
+				</form>
+			</div>
 		</div>
 	</div>
 </div>
@@ -56,7 +72,7 @@
 	</div>
 </div>
 </section>
-<section>
+<section id="conduce" class="conduce">
 <div class="container">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
