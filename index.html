@@ -44,6 +44,10 @@
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<div class="conviertete">
 				<form>
+				<div class="form-group none">
+				<h4>otro texto</h4>
+				<p>Viaja con <img src="img/logo-blanco.png" alt="logotipo blanco"></p>
+				</div>
 				<div class="form-group">
 				<h4>Disfruta del viaje  <br> Eres dueño de tu tiempo</h4>
 				<p>Viaja con <img src="img/logo-blanco.png" alt="logotipo blanco"></p>
@@ -123,11 +127,11 @@ Conviértete en conductor</p>
     				<label for="destino">Destino</label>
     				<input type="text" class="form-control" id="destino">
   				</div>
-  					<button type="submit" class="btn btn-default" id="ruta">¡TRAZAR RUTA!</button>
+  					<button type="button" class="btn btn-default" id="ruta">¡TRAZAR RUTA!</button>
 			</form>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
-		<div>
+		<div class="container">
 			<div class="row">
 				<div class="mapa">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="map">
@@ -185,7 +189,7 @@ Conviértete en conductor</p>
 </footer>
 <!-- JAVASCRIPT es preferible como ultima linea en el body -->
 <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoK5oWM6LnU9KTCRc_xpQubQDmMxikhak&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoK5oWM6LnU9KTCRc_xpQubQDmMxikhak&libraries=places&callback=initMap">
     </script>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

@@ -34,7 +34,7 @@ input {
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center bottom;
+	background-position: center border-bottom;
 	color: #fff;
 }
 /*formulario*/
