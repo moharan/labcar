@@ -81,11 +81,41 @@
 	</div>
 </div>
 </section>
-<section>
+<section id="tarifa" class="tarifa">
 <div class="container">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-		<p>Tarifas</p>
+		<div class="container">
+	<div class="row">
+		<h4>Tarifas</h4>
+		<p>Cosulta las tarifas LabCar aqui</p>
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left datos">
+			<button id="encuentrame">Encuéntrame</button>
+			<form class="form">
+  				<div class="form-group">
+    				<label for="origen">Origen</label>
+    				<input type="text" class="form-control" id="origen">
+  				</div>
+  				<div class="form-group">
+    				<label for="destino">Destino</label>
+    				<input type="text" class="form-control" id="destino">
+  				</div>
+  					<button type="submit" class="btn btn-default" id="ruta">¡TRAZAR RUTA!</button>
+			</form>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
+		<div>
+			<div class="row">
+				<div class="mapa">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="map">
+					</div>
+					<!-- Aqui ira nuestro mapa-->
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
 		</div>
 	</div>
 </div>
@@ -100,7 +130,9 @@
 </div>
 </footer>
 <!-- JAVASCRIPT es preferible como ultima linea en el body -->
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAelOrxwqDDKvXCEsZr9bqGjjzsp7aI_-4&callback=initMap&libraries=places"></script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoK5oWM6LnU9KTCRc_xpQubQDmMxikhak&callback=initMap">
+    </script>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
  <script type="text/javascript" src="js/main.js"></script>
