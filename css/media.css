@@ -1,18 +1,65 @@
 @media only screen and (min-width: 1281px) {
-
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 80px;
+    margin-bottom: 40px;
+	}
+	.navbar-right {
+    margin-right: 30px;
+	}
 }
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
-
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 80px;
+    margin-bottom: 40px;
+	}
+	.navbar-right {
+    margin-right: 30px;
+	}
 }
 @media only screen and (min-width: 481px) and (max-width: 767px) {
 	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-
+    margin-left: 80px;
+    margin-bottom: 40px;
 	}
 }
 @media only screen and (min-width: 1px) and (max-width: 480px) {
 	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    /*margin-left: 80px;
-    margin-bottom: 40px;*/
+    margin-left: 80px;
+    margin-bottom: 40px;
 	}
+	#texto02 {
+	display: block;
+	}
+	#texto01 {
+	display: none;
+	}
+	#boton02 {
+	display: block;
+	}
+	#boton01 {
+	display: none;
+	}
+	#form01 {
+	display: none;
+	}
+	.conviertete {
+	width: 250px;
+	height: 300px;
+	border-radius: 1px;
+	}
+	#texto03 {
+	display: block;
+	}
+	#texto04 {
+	display: block;
+	}
+	.conduce {
+	height: 200px;
+}
+	.conduce2 {
+	width: 100%;
+	height: auto;
+	padding: 30px 100px 0 20px;
+}
 }
 

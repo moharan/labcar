@@ -44,22 +44,22 @@
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<div class="conviertete">
 				<form>
-				<div class="form-group">
-				<h4>otro texto</h4>
-				<p>Viaja con <img src="img/logo-blanco.png" alt="logotipo blanco"></p>
+				<div class="form-group" id="texto02">
+				<h2>Comienza a viajar con <img src="img/logo-blanco.png" alt="logotipo blanco"></h2>
 				</div>
-				<div class="form-group">
+				<div class="form-group" id="texto01">
 				<h4>Disfruta del viaje  <br> Eres dueño de tu tiempo</h4>
 				<p>Viaja con <img src="img/logo-blanco.png" alt="logotipo blanco"></p>
 				</div>
-				<div class="form-group">
+				<div class="form-group" id="form01">
     					<label for="option1" class="lab">REGÍSTRATE</label><br>
     					<input type="text" class="option" id="option1">
     					<label for="option2" class="lab">O BIEN</label>
     					<input type="text" class="option" id="option2">
     			</div>
     			<div class="form-group">
-  					<button type="submit" class="btn btn-default">Conviértete en conductor</button>
+  					<button type="submit" class="btn btn-default" id="boton01">Conviértete en conductor</button>
+  					<button type="submit" class="btn btn-default" id="boton02">Descarga el app</button>
   				</div>
 				</form>
 			</div>
@@ -74,15 +74,17 @@
 		<div class="container-fluid marco">
 			<div class="row">
 				<div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1 text-center">
+				<h3 id="texto03" class="texto03">La nueva app</h3>
 				<img src="img/celular.png" alt="celular" class="img-responsive text-center">
 				</div>
-				<div class="col-xs-12 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 info">
+				<div class="col-xs-12 hidden-xs col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1 info">
 				<h4>Descarga la nueva app</h4>
 				<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
 				<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
 				</div>
 			</div>
 		</div>
+		<h4 id="texto04" class="texto04 text-center">llega a tu destino aún más rápido</h4>
 		</div>
 	</div>
 </div>
@@ -108,7 +110,7 @@ Conviértete en conductor</p>
 </div>
 </section>
 <section id="tarifa" class="tarifa">
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<div class="container">
@@ -116,12 +118,14 @@ Conviértete en conductor</p>
 					<h4>Tarifas</h4>
 					<p>Cosulta las tarifas LabCar aqui</p>
 						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-left datos">
-								<form class="form">
+								<form class="form-inline">
 									<div class="form-group">
-										<label for="origen">Origen</label>
-										<input type="text" class="form-control" id="origen">
-										<label for="destino">Destino</label>
-										<input type="text" class="form-control" id="destino">
+										<label><img src="img/circulo.png" alt=""></label>
+										<input type="text" class="estilo-control" id="origen" placeholder="Ingrese su punto de partida">
+									</div>
+									<div class="form-group">
+										<label><img src="img/flecha.png" alt=""></label>
+										<input type="text" class="estilo-control" id="destino" placeholder="Ingrese su destino">
 									</div>
 									<button type="button" class="btn btn-default" id="ruta">¡TRAZAR RUTA!</button>
 								</form>
